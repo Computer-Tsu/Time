@@ -11,3 +11,12 @@ Time conversions
  - unix epoch
  - seconds / milliseconds
 
+
+
+
+Seconds | Minutes
+------- | -------
+300     | 5
+600     | 10
+900     | 15
+3600    | 60 (1 hr)
