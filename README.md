@@ -4,6 +4,7 @@ PC Computer Time
 Information about time sources
 
 Creating a Date timestamp environmental variable for file names and logs.
+Windows: `SET DateString=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%`
 
 NTP
 
