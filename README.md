@@ -35,7 +35,7 @@ Seconds | Minutes
 
 https://time.gov
 
-Fix the abbreviation when writing the time, EST (Eastern Standard Time, Central, Mountain, Pacific Standard Time) should not be used during Daylight Savings Time, instead use ET or EDT (or CDT, MDT, PDT).
+Fix the abbreviation when writing the time, EST (Eastern Standard Time, Central, Mountain, Pacific Standard Time) should not be used during Daylight Savings Time, instead use EDT or ET (or CDT, MDT, PDT).
 
 DST Ends in November.
 
@@ -55,3 +55,13 @@ Every day has two midnights and midnight is between two days and doesn't belong 
 
 https://gist.github.com/Computer-Tsu/e4d673bf61573b8d6ea1bc50a71003cd
 
+-----
+
+EST = UTC -5, EDT = UTC -4
+CST = UTC -6, CDT = UTC -5
+MST = UTC -7, MDT = UTC -6
+PST = UTC -8, PDT = UTC -7
+
+New Windows installs default to Pacific time.
+You can add a second clock to Windows system tray and it can be Universal Coordinated Time.
+When an app or OS doesn't provide UTC or GMT as a choice, choose Reykjavik.
