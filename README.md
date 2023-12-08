@@ -68,4 +68,4 @@ New Windows installs default to Pacific time.<br>
 You can add a second clock to Windows system tray and it can be Universal Coordinated Time.<br>
 When an app or OS (Google Android) doesn't provide UTC or GMT as a choice, choose Reykjavik for UTC.<br>
 
-Very Old devices may use daylight savings date range ___
+Very Old devices may use different daylight savings effective date range due to changes in 1986 and 2005.
