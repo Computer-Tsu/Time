@@ -3,7 +3,7 @@ PC Computer Time
 
 Information about time sources
 
-Creating a Date timestamp environmental variable for file names and logs.
+Creating a Date timestamp environmental variable for file names and logs.<br>
 Windows: `SET DateString=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%`
 
 NTP
@@ -28,9 +28,9 @@ Seconds | Minutes
 43,200  | 720 (12 hr)
 86,400  | 1440 (24 hr)
 
-999 Seconds = 16.65 Minutes
-999 Minutes = 16.65 Hours
-604,800 Seconds = 10,080 Minutes =  168 Hours = 1 Week
+999 Seconds = 16.65 Minutes<br>
+999 Minutes = 16.65 Hours<br>
+604,800 Seconds = 10,080 Minutes =  168 Hours = 1 Week<br>
 
 -----
 
@@ -42,27 +42,30 @@ DST Ends in November.
 
 ### At present, daylight saving time in the United States
 
-begins at 2:00 a.m. on the second Sunday of March (at 2 a.m. the local time time skips ahead to 3 a.m. so there is one less hour in the day)
+ - begins at 2:00 a.m. on the second Sunday of March (at 2 a.m. the local time time skips ahead to 3 a.m. so there is one less hour in the day)
 
-ends at 2:00 a.m. on the first Sunday of November (at 2 a.m. the local time becomes 1 a.m. and that hour is repeated, so there is an extra hour in the day)​
+ - ends at 2:00 a.m. on the first Sunday of November (at 2 a.m. the local time becomes 1 a.m. and that hour is repeated, so there is an extra hour in the day)​
 
 -----
 
-0:00 is midnight (or 12:00 A.M.)
-12:00 is noon (or 12:00 P.M.)
+0:00 is midnight (or 12:00 A.M.)<br>
+12:00 is noon (or 12:00 P.M.)<br>
 Every day has two midnights and midnight is between two days and doesn't belong to either. So the correct description is 'the midnight between Monday and Tuesday', or 'the 25th - 26th midnight' alternatively use 23:59:59 or 0:00:01 instead.
 
 -----
 
+Show the time on prompt (Windows/DOS)
 https://gist.github.com/Computer-Tsu/e4d673bf61573b8d6ea1bc50a71003cd
 
 -----
 
-EST = UTC -5, EDT = UTC -4
-CST = UTC -6, CDT = UTC -5
-MST = UTC -7, MDT = UTC -6
-PST = UTC -8, PDT = UTC -7
+EST = UTC -5, EDT = UTC -4<br>
+CST = UTC -6, CDT = UTC -5<br>
+MST = UTC -7, MDT = UTC -6<br>
+PST = UTC -8, PDT = UTC -7<br>
 
-New Windows installs default to Pacific time.
-You can add a second clock to Windows system tray and it can be Universal Coordinated Time.
-When an app or OS doesn't provide UTC or GMT as a choice, choose Reykjavik.
+New Windows installs default to Pacific time.<br>
+You can add a second clock to Windows system tray and it can be Universal Coordinated Time.<br>
+When an app or OS (Google Android) doesn't provide UTC or GMT as a choice, choose Reykjavik for UTC.<br>
+
+Very Old devices may use daylight savings date range ___
