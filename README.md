@@ -46,6 +46,10 @@ DST Ends in November.
 
  - ends at 2:00 a.m. on the first Sunday of November (at 2 a.m. the local time becomes 1 a.m. and that hour is repeated, so there is an extra hour in the day)​
 
+### Non-US terms
+
+International users frequently use summer time and winter time as equivilant to US daylight time.
+
 -----
 
 0:00 is midnight (or 12:00 A.M.)<br>
@@ -65,6 +69,7 @@ MST = UTC -7, MDT = UTC -6<br>
 PST = UTC -8, PDT = UTC -7<br>
 
 New Windows installs default to Pacific time.<br>
+New Apple Mac default to Cupertino Washington, Pacific time.<br>
 You can add a second clock to Windows system tray and it can be Universal Coordinated Time.<br>
 When an app or OS (Google Android) doesn't provide UTC or GMT as a choice, choose Reykjavik for UTC.<br>
 
