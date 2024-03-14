@@ -31,7 +31,8 @@ Seconds | Minutes
 999 Seconds = 16.65 Minutes<br>
 999 Minutes = 16.65 Hours<br>
 604,800 Seconds = 10,080 Minutes =  168 Hours = 1 Week<br>
-
+<br>
+9999 sec = 2 hr 46 min 39 sec
 -----
 
 https://time.gov
@@ -74,3 +75,9 @@ You can add a second clock to Windows system tray and it can be Universal Coordi
 When an app or OS (Google Android) doesn't provide UTC or GMT as a choice, choose Reykjavik for UTC.<br>
 
 Very Old devices may use different daylight savings effective date range due to changes in 1986 and 2005.
+
+-----
+
+Leap year
+
+Feb 29th occurs each year that if the year is evenly divisible by 4 except years ending 00
