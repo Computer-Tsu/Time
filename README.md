@@ -55,7 +55,8 @@ International users frequently use summer time and winter time as equivilant to 
 
 0:00 is midnight (or 12:00 A.M.)<br>
 12:00 is noon (or 12:00 P.M.)<br>
-Every day has two midnights and midnight is between two days and doesn't belong to either. So the correct description is 'the midnight between Monday and Tuesday', or 'the 25th - 26th midnight' alternatively use 23:59:59 or 0:00:01 instead.
+Every day has two midnights and midnight is between two days and doesn't belong to either. So the correct description is 'the midnight between Monday and Tuesday', or 'the 25th - 26th midnight' alternatively use 23:59:59 or 0:00:01 instead.<br>
+Leap seconds are added as 24:00:00
 
 -----
 
