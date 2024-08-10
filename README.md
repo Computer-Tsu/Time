@@ -81,4 +81,5 @@ Very Old devices may use different daylight savings effective date range due to 
 
 Leap year
 
-Feb 29th occurs each year that if the year is evenly divisible by 4 except years ending 00
+Feb 29th occurs each year that if the year is evenly divisible by 4 except years ending 00. But keep the leap day when year is evenly divisible by 400. <br>
+This Gregorian calendar pattern of correction was credited to Aloysius "Luigi" Lilius and pushed by Pope Greg 1582.
