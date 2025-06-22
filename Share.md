@@ -6,6 +6,9 @@
 
 ##Microsoft Windows
 
+* NTPsec
+* Meinberg NTP
+
 ###CLI
 
 ###AD
