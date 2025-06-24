@@ -58,6 +58,8 @@ International users frequently use summer time and winter time as equivilant to 
 Every day has two midnights and midnight is between two days and doesn't belong to either. So the correct description is 'the midnight between Monday and Tuesday', or 'the 25th - 26th midnight' alternatively use 23:59:59 or 0:00:01 instead.<br>
 Leap seconds are added as 24:00:00
 
+(https://en.wikipedia.org/wiki/Midnight)
+
 -----
 
 Show the time on prompt (Windows/DOS)
@@ -69,6 +71,16 @@ EST = UTC -5, EDT = UTC -4<br>
 CST = UTC -6, CDT = UTC -5<br>
 MST = UTC -7, MDT = UTC -6<br>
 PST = UTC -8, PDT = UTC -7<br>
+Alaska
+Hawaii
+
+TZ | Offset
+------- | -------
+EDT      | UTC -4
+EST, CDT | UTC -5
+CST, MDT | UTC -6
+MST, PDT | UTC -7
+PST      | UTC -8
 
 New Windows installs default to Pacific time.<br>
 New Apple Mac default to Cupertino Washington, Pacific time.<br>
