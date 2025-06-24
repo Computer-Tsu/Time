@@ -14,7 +14,13 @@
 ###AD
 
 ##DHCP options
+42
 
 ##Hardware
 
 ### GPS
+
+NMEA
+
+PPS
+
