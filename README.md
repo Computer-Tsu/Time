@@ -85,12 +85,12 @@ Alaska AKST = UTC -9, AKDT = UTC -8<br>
 Hawaii HST UTC -10 (HST or HAST, no daylight saving time change)
 
 TZ | Offset
-------- | -------
-EDT      | UTC -4
-EST, CDT | UTC -5
-CST, MDT | UTC -6
-MST, PDT | UTC -7
-PST      | UTC -8
+ ------- | -------
+EDT      | UTC-04:00
+EST, CDT | UTC-05:00
+CST, MDT | UTC-06:00
+MST, PDT | UTC-07:00
+PST      | UTC-08:00
 
 New Windows installs default to Pacific time.<br>
 New Apple Mac default to Cupertino Washington, Pacific time.<br>
