@@ -7,13 +7,21 @@ Creating a Date timestamp environmental variable for file names and logs.<br>
 Windows: `SET DateString=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%`
 
 NTP
+(https://en.wikipedia.org/wiki/Network_Time_Protocol)
+
+ISO-8601 Standards use YYYY-MM-DD ...
 
 Time conversions
  - unix epoch
  - seconds / milliseconds
 
 
+```
+Function Get-EpochDate ($epochDate) { [timezone]::CurrentTimeZone.ToLocalTime(([datetime]'1/1/1970').AddSeconds($epochDate)) }
+```
 
+The Unix `time_t` data type that represents a point in time is, on many platforms, a [signed integer](https://en.wikipedia.org/wiki/Integer_%28computer_science%29 "Integer (computer science)"), traditionally of 32 [bits](https://en.wikipedia.org/wiki/Bit "Bit") (but [see below](https://en.wikipedia.org/wiki/Unix_time#Range_of_representable_times)), directly encoding the Unix time number as described in the preceding section. A signed 32-bit value covers about 68 years before and after the 1970-01-01 epoch. The minimum representable date is Friday 1901-12-13, and the maximum representable date is Tuesday 2038-01-19. One second after 2038-01-19T03:14:07Z this representation will [overflow](https://en.wikipedia.org/wiki/Arithmetic_overflow "Arithmetic overflow") in what is known as the [year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem "Year 2038 problem").<br>Source: (https://en.wikipedia.org/wiki/Unix_time)
+<br>
 
 Seconds | Minutes
 ------- | -------
@@ -55,6 +63,7 @@ International users frequently use summer time and winter time as equivilant to 
 
 0:00 is midnight (or 12:00 A.M.)<br>
 12:00 is noon (or 12:00 P.M.)<br>
+
 Every day has two midnights and midnight is between two days and doesn't belong to either. So the correct description is 'the midnight between Monday and Tuesday', or 'the 25th - 26th midnight' alternatively use 23:59:59 or 0:00:01 instead.<br>
 Leap seconds are added as 24:00:00
 
@@ -71,8 +80,9 @@ EST = UTC -5, EDT = UTC -4<br>
 CST = UTC -6, CDT = UTC -5<br>
 MST = UTC -7, MDT = UTC -6<br>
 PST = UTC -8, PDT = UTC -7<br>
-Alaska
-Hawaii
+Alaska AKST = UTC -9, AKDT = UTC -8<br>
+(The western [Aleutian Islands](https://en.wikipedia.org/wiki/Aleutian_Islands "Aleutian Islands") (HAST) observe [Hawaii–Aleutian Time](https://en.wikipedia.org/wiki/Hawaii%E2%80%93Aleutian_Time_Zone "Hawaii–Aleutian Time Zone"), one hour behind the remainder of the state.)
+Hawaii HST UTC -10 (HST or HAST, no daylight saving time change)
 
 TZ | Offset
 ------- | -------
@@ -90,6 +100,12 @@ When an app or OS (Google Android) doesn't provide UTC or GMT as a choice, choos
 Very Old devices may use different daylight savings effective date range due to changes in 1986 and 2005.
 
 -----
+
+Sources:
+1. (https://en.wikipedia.org/wiki/System_time)
+2. (https://en.wikipedia.org/wiki/Unix_time)
+3. (https://en.wikipedia.org/wiki/Epoch_(computing))
+
 
 Leap year
 
