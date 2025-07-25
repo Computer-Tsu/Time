@@ -111,3 +111,11 @@ Leap year
 
 Feb 29th occurs each year that if the year is evenly divisible by 4 except years ending 00. But keep the leap day when year is evenly divisible by 400. <br>
 This Gregorian calendar pattern of correction was credited to Aloysius "Luigi" Lilius and pushed by Pope Greg 1582.
+
+-----
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Repo Size](https://img.shields.io/github/repo-size/Computer-Tsu/Time)
+![Last Commit](https://img.shields.io/github/last-commit/Computer-Tsu/Time)
+
