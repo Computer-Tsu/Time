@@ -1,6 +1,9 @@
 The Y2K events.
 Which digitized time systems will overflow and when.
 
-Unix 2038
+NTP February 7, 2036
 
-GPS 2038
+Unix January 19, 2038
+
+GPS November 21, 2038<br>
+happens every 1,024 weeks, or about 19.6 years
