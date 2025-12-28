@@ -3,6 +3,8 @@
 Windows Active Directory, AD (kerberos) 5 min<br>
 SSL/TLS/HTTPS
 
+## Radio
+
 Radio, digital (WSJT-x)<br>
 FT4 & FT8 +/- 1-2 sec<br>
 JT65 1-2<br>
