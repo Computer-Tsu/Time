@@ -1,22 +1,22 @@
-#Sharing and Getting Time data
+# Sharing and Getting Time data
 
-##NTP
+## NTP
 
-##SNTP
+## SNTP
 
-##Microsoft Windows
+## Microsoft Windows
 
 * NTPsec
 * Meinberg NTP
 
-###CLI
+### CLI
 
-###AD
+### AD
 
-##DHCP options
+## DHCP options
 42
 
-##Hardware
+## Hardware
 
 ### GPS
 
