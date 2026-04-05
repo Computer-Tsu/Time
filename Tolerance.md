@@ -23,3 +23,18 @@ JT65  |
 
 When Windows detects a time update of greater than _, it will _
 
+Registry Keys: `MaxPosPhaseCorrection` and `MaxNegPhaseCorrection` <br>
+And `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Config`
+
+≤ MaxAllowedPhaseOffset (default ~54,000s/15hrs for clients)<br>
+Gradual adjustment via clock rate slewing
+
+> MaxAllowedPhaseOffset but ≤ 48hrs (DCs) or unlimited (clients)<br>
+Logs event, may step clock or reject sample
+
+Huge offsets (>48hrs on DCs)<br>
+Rejects sample, requires manual config to accept
+
+Sources:
+ - https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/configure-w32ime-against-huge-time-offset
+ - https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings
