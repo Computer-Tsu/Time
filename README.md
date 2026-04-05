@@ -3,6 +3,7 @@ PC Computer Time
 
 Information about time sources
 
+
 Creating a Date timestamp environmental variable for file names and logs.<br>
 Windows: `SET DateString=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%`
 
@@ -45,7 +46,7 @@ Seconds | Minutes
 
 https://time.gov
 
-Fix the abbreviation when writing the time, EST (Eastern Standard Time, Central, Mountain, Pacific Standard Time) should not be used during Daylight Savings Time, instead use EDT or ET (or CDT, MDT, PDT).
+Fix the abbreviation when writing the time, EST (Eastern Standard Time, Central, Mountain, Pacific Standard Time) should not be used during Daylight Savings Time, instead use **EDT** or **ET** (or CDT, MDT, PDT).
 
 DST Ends in November.
 
@@ -60,6 +61,8 @@ DST Ends in November.
 International users frequently use summer time and winter time as equivilant to US daylight time.
 
 -----
+
+## 
 
 0:00 is midnight (or 12:00 A.M.)<br>
 12:00 is noon (or 12:00 P.M.)<br>
