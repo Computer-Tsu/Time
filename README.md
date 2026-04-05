@@ -30,18 +30,18 @@ Seconds | Minutes
 300     | 5
 600     | 10
 900     | 15
+999     | 16.65 Minutes
 1200    | 20
 1800    | 30
 3600    | 60 (1 hr)
+9999    | 167 (2 hr 46 min 39 sec)
 28,800  | 480 (8 hr)
 43,200  | 720 (12 hr)
 86,400  | 1440 (24 hr)
+604,800 | 10,080 Minutes =  168 Hours = 1 Week
 
-999 Seconds = 16.65 Minutes<br>
 999 Minutes = 16.65 Hours<br>
-604,800 Seconds = 10,080 Minutes =  168 Hours = 1 Week<br>
-<br>
-9999 sec = 2 hr 46 min 39 sec
+
 -----
 
 https://time.gov
