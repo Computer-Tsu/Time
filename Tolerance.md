@@ -29,7 +29,7 @@ And `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Config`
 ≤ MaxAllowedPhaseOffset (default ~54,000s/15hrs for clients)<br>
 Gradual adjustment via clock rate slewing
 
-> MaxAllowedPhaseOffset but ≤ 48hrs (DCs) or unlimited (clients)<br>
+\> MaxAllowedPhaseOffset but ≤ 48hrs (DCs) or unlimited (clients)<br>
 Logs event, may step clock or reject sample
 
 Huge offsets (>48hrs on DCs)<br>
