@@ -117,6 +117,15 @@ This Gregorian calendar pattern of correction was credited to Aloysius "Luigi" L
 
 -----
 
+
+Raspberry Pi powers on with default time date of: Unix epoch: January 1, 1970, 00:00:00 UTC<br>
+then `fake-hwclock` reads `/var/lib/fake-hwclock.data` (if exists from prior shutdown) to estimate time.
+
+Radio QSO Logging reported in UTC?
+
+Radio Digital Modes https://github.com/Computer-Consultant/Date-Time/blob/main/Tolerance.md#acceptable-tolerances
+
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Repo Size](https://img.shields.io/github/repo-size/Computer-Tsu/Time)
