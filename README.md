@@ -126,6 +126,13 @@ Radio QSO Logging reported in UTC?
 Radio Digital Modes https://github.com/Computer-Consultant/Date-Time/blob/main/Tolerance.md#acceptable-tolerances
 
 
+
+Use NTP and check with WWV/WWVH or dimension4.
+
+
+Florida has an enacted state law from 2018 called the Sunshine Protection Act, signed by then-Governor Rick Scott, that would put Florida on year-round daylight saving time if federal law allows it to take effect.
+
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Repo Size](https://img.shields.io/github/repo-size/Computer-Tsu/Time)
